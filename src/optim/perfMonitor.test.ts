@@ -1,5 +1,5 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest'
-import { PerfMonitor, type PerfMetrics } from './perfMonitor'
+import { describe, it, expect, beforeEach } from 'vitest'
+import { PerfMonitor } from './perfMonitor'
 
 describe('Feature 11: 성능 모니터링', () => {
   let monitor: PerfMonitor
